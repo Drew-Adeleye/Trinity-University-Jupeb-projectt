@@ -1,0 +1,154 @@
+/* The navigation bar css*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.nav {
+    padding: 10px;
+    background-color:black;
+    display: flex;
+    color:  white
+}
+.navlist .enabled {
+  color: #2079B0;
+}
+.navlist a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 15px;
+}
+.navlist a:hover {
+    /*background-color: orangered;*/
+    color: #2079B0;
+}
+.navlist li {
+    display: inline-block;
+}
+.nav-logo {
+    margin-right: auto;
+}
+@media  screen and (max-width: 700px) {
+    .nav {
+        display: block;
+    }
+    .nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* The Navigation bar CSS end */
+
+/* The Image section */
+
+.img-section div {
+    max-width: 100%;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/sliderimg4.png);
+}
+.img-section h2 {
+    font-weight: 100;
+    font-size: 40px;
+}
+@media screen and (max-width: 600px) {
+    .img-section div {
+        height: 200px;
+    }
+    
+}
+
+/* The Image section end */
+
+/*About section*/
+
+.abt {
+    display: flex;
+    margin: auto;
+    padding: 20px 40px;
+}
+.abt-header {
+    padding: 20px 40px;
+}
+.abt-header h2 {
+    font-size: 50px;
+}
+.intro h3 {
+    font-size: 40px;
+}
+.intro p {
+    line-height: 25px;
+}
+.img  {
+    max-width: 100%;
+    width: 100%;
+}
+.img img {
+    height: 500px;
+}
+.vision, .mission, .value {
+    padding: 20px 40px;
+    width: 50%;
+}
+.vision h3, .mission h3, .value h3 {
+    font-size: 35px;
+}
+.vision p, .mission p, .value p {
+    line-height: 25px;
+}
+.value li {
+    line-height: 25px;
+}
+@media screen and (max-width: 700px) {
+    .abt {
+        display: block;
+    }
+    .img img {
+        max-width: 100%;
+    }
+    .img {
+        height: 350px;
+    }
+    .vision, .mission, .value {
+        width: 80%;
+    }
+    
+}
+/*About section end*/
+
+/*Footer section*/
+
+.footer {
+    display: flex;
+    padding: 0;
+    background-color: #2BA4F0;
+  }
+  .footer div {
+    margin: auto;
+  }
+  .social-icons {
+    display: flex;
+  }
+  .social-icons div {
+    display: inline-block;
+    margin-right: 20px;
+    width: 10px;
+  }
+  .social-icons i {
+    font-size: 20px;
+  }
+
+
+
+/*Footer section end*/
+
+
+
+
